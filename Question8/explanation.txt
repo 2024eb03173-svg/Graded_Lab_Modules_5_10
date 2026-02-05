@@ -1,0 +1,11 @@
+1. I created the script bg_move.sh to move all files from a given directory into a subdirectory named backup.
+
+2. I used mkdir -p backup to ensure the backup directory is created only if it does not already exist.
+
+3. I iterated over each file using a for loop and executed the mv command in the background using the & operator.
+
+4. I displayed the PID of each background move operation using the $! variable, which stores the process ID of the most recent background process.
+
+5. I used the wait command to ensure the parent process waits for all background processes to complete before exiting.
+
+6. After execution, I verified that all files were successfully moved into the backup directory.

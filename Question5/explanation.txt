@@ -1,0 +1,9 @@
+1. I created the script sync.sh to compare directories dirA and dirB.
+
+2. I used comm and sorted lists to identify files present only in dirA and only in dirB.
+
+3. For files with the same name in both directories, I used cmp to compare their contents.
+
+4. The script reported matching files without copying or modifying any files.
+
+5. I verified the results by testing with sample directories.

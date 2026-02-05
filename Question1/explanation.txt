@@ -1,0 +1,11 @@
+1. I created the script analyze.sh using nano editor. The script checks whether the argument provided is a file or directory.
+
+2. I used chmod +x analyze.sh to make the script executable. The ls -l command confirmed execution permission was granted.
+
+3. I created a sample file using echo to test the script functionality.
+
+4. When I executed the script with a file argument, it displayed the number of lines, words, and characters using the wc command.
+
+5. When I executed the script with a directory argument, it displayed the total number of files and the number of .txt files using find and wc.
+
+6. I tested invalid argument conditions, and the script displayed appropriate error messages.

@@ -1,0 +1,6 @@
+Log Summary
+Total: 7
+INFO: 2
+WARNING: 2
+ERROR: 3
+Recent ERROR: 2025-01-12 10:20:50 ERROR Database connection failed

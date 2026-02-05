@@ -1,0 +1,9 @@
+1. I created the script emailcleaner.sh to process the emails.txt file.
+
+2. I used grep with regular expressions to extract valid email addresses matching the required format.
+
+3. Valid emails were stored in valid.txt, and invalid ones were stored in invalid.txt.
+
+4. I used sort and uniq to remove duplicate entries from valid.txt.
+
+5. The script successfully separated valid and invalid email addresses.

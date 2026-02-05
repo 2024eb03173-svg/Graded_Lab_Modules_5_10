@@ -1,0 +1,2 @@
+Linux scripting is powerful and flexible
+Linux makes automation easy

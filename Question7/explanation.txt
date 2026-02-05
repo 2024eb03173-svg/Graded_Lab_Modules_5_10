@@ -1,0 +1,11 @@
+1. I created the script patterns.sh to classify words based on vowel and consonant patterns.
+
+2. I used tr to convert all text to lowercase for case-insensitive checking.
+
+3. I used grep with regular expressions to extract words containing only vowels into vowels.txt.
+
+4. I extracted words containing only consonants into consonants.txt.
+
+5. I identified words starting with a consonant and containing both vowels and consonants into mixed.txt.
+
+6. The script successfully categorized words into separate files.

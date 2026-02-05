@@ -1,0 +1,11 @@
+1. I created the script metrics.sh to analyze the text file input.txt.
+
+2. I used tr to separate words and remove special characters.
+
+3. I used awk and sort to determine the longest and shortest words.
+
+4. I calculated the average word length using arithmetic operations in awk.
+
+5. I used sort, uniq, and wc to count the total number of unique words.
+
+6. The script correctly displayed all required metrics.

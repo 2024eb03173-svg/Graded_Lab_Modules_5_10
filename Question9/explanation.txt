@@ -1,0 +1,11 @@
+1. I wrote a C program that creates multiple child processes using fork().
+
+2. Each child process terminates immediately after execution.
+
+3. The parent process uses wait() to clean up terminated child processes.
+
+4. The parent prints the PID of each cleaned child process.
+
+5. This prevents zombie processes from remaining in the system.
+
+6. I compiled the program using gcc and verified correct execution.

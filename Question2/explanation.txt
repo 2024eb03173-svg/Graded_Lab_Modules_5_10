@@ -1,0 +1,11 @@
+1. I created the log analyzer script that accepts a log file name as a command-line argument.
+
+2. The script checks whether exactly one argument is provided and verifies that the file exists and is readable.
+
+3. I used grep to count the total number of log entries and specifically count INFO, WARNING, and ERROR messages.
+
+4. I used tail -1 to display the most recent ERROR message.
+
+5. The script generates a summary report file named logsummary_<date>.txt using output redirection.
+
+6. I tested the script with valid and invalid inputs to ensure proper error handling.
