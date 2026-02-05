@@ -1,0 +1,13 @@
+1. I wrote a C program demonstrating signal handling using signal().
+
+2. The parent process runs indefinitely in a loop.
+
+3. One child process sends SIGTERM after 5 seconds using kill().
+
+4. Another child process sends SIGINT after 10 seconds.
+
+5. The parent handles SIGTERM and SIGINT differently using custom handler functions.
+
+6. The parent exits gracefully after receiving SIGINT.
+
+7. I compiled and executed the program to verify signal handling behavior.
