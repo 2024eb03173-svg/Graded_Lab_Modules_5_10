@@ -2,7 +2,7 @@
 
 2. I used mkdir -p backup to ensure the backup directory is created only if it does not already exist.
 
-3. I used Bash conditional pattern matching with regular expressions ([[ $word =~ ... ]]) to identify words containing only vowels and store them in vowels.txt.
+3. I used a loop to iterate through each file in the directory and moved each file to the backup folder using the mv command executed in the background with &.
 
 4. I displayed the PID of each background move operation using the $! variable, which stores the process ID of the most recent background process.
 
