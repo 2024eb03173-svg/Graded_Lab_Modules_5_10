@@ -2,7 +2,7 @@
 
 2. The script checks whether exactly one argument is provided and verifies that the file exists and is readable.
 
-3. I used grep to count the total number of log entries and specifically count INFO, WARNING, and ERROR messages.
+3. I used grep -c to count log entries containing the levels INFO, WARNING, and ERROR, and to determine the number of occurrences for each log level separately.
 
 4. I used tail -1 to display the most recent ERROR message.
 
